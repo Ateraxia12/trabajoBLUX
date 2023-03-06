@@ -1,0 +1,72 @@
+/* MEDIA cuerid */
+
+
+@media screen and (max-width: 768px) {
+
+    *{
+        margin: 0%;
+    }
+    header{
+        width: 768px;
+        height: 70px;
+        align-items: center;
+    }
+    .imglogo{
+        height: 50px;
+    }
+    ul li a{
+        font-size: 15px;
+        padding-left:  20px;
+    }
+    /* fin de header */
+
+.section1{
+    width: 50%;
+    height: 450px;
+}
+.productPage{
+    padding-top: 20%;
+    font-size: 50px;
+}
+.productPage2{
+    padding-left: 10%;
+    font-size: 20px;
+    padding-top: 4%;
+}
+.bordeButton{
+    height: 60px;
+    width:50%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+/* fin section */
+
+aside{
+    height: 450px;
+    background-image: url(/imagenes/Canva-Withered-Leaves-Photo.jpg);
+    background-size: 184%;
+}
+.phonePng {
+    height: 300px;
+    margin-bottom: 10%;
+}
+/* fin aside  */
+.Fonctionnalités{
+    font-size: 300%;
+}
+.laptop{
+    height: 200px;
+    padding-left: 10px;
+}
+.Alphascreenshot{
+    font-size:30px;
+}
+/* fin section2 */
+.h4plansPrincing{
+    font-size: 300%;
+    height: 80px;
+}
+
+}
+
+
