@@ -87,8 +87,8 @@ aside{
         margin: 0%;
     }
     header{
-        background-color:red;
-        width:100%;
+        background-color: #1E172F;
+        width: 600px;
         height:120px;
         flex-wrap: wrap;
         justify-content: start;
@@ -109,16 +109,16 @@ aside{
 }
 .productPage{
     padding-top: 20%;
-    font-size: 50px;
+    font-size: 30px;
 }
 .productPage2{
     padding-left: 10%;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 4%;
 }
 .bordeButton{
-    height: 60px;
-    width:50%;
+    height: 50px;
+    width:60%;
     margin-left: 20%;
     margin-top: 15%;
 }
@@ -136,6 +136,9 @@ aside{
 /* fin aside  */
 .Fonctionnalités{
     font-size: 300%;
+}
+.section2{
+    width: 600px;
 }
 .laptop{
     height: 100px;
