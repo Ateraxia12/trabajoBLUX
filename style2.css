@@ -139,6 +139,7 @@ aside{
 }
 .section2{
     width: 600px;
+    width: 50%;
 }
 .laptop{
     height: 100px;
@@ -176,4 +177,9 @@ aside{
     width: 270px;
     margin-bottom: 20px;
 }
+aside{
+    height: 450px;
+    width:50%;
+    background-image: url(/imagenes/Canva-Withered-Leaves-Photo.jpg);
+    background-size: 160%;
 }
