@@ -198,20 +198,26 @@ aside{
     width: 300px;
     margin-bottom: 20px;
     font-size: 20px;
-    
+    gap: 30px;
 }
 .contenedor3{
     height: 700px;
     width: 300px;
     margin-bottom: 20px;
     font-size: 20px;
- 
+    gap: 30px;
 }
 .contenedor1{
     height: 700px;
     width: 300px;
     margin-bottom: 20px;
-    font-size: 150%;
-
+    font-size: 20px;
+    gap: 30px;
+}
+.buttonSub{
+    width: 300px;
+}
+.buttonSub2{
+    width: 300px;
 }
 }
