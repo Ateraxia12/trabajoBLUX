@@ -63,7 +63,7 @@ ul li a:hover{
     color: aliceblue;
     display: flex;
     justify-content: center;
-    padding-top: 20%;
+    padding-top: 10%;
     font-size: 70px;
 }
 .productPage2{
@@ -192,6 +192,7 @@ aside{
 }
 .ParrafoLoren{
 width: 700px;
+font-size: 150%;
 }
 /* fin section3 */
 
