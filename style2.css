@@ -179,7 +179,12 @@ aside{
     height: 80px;
     width: 100%;
 }
+.ParrafoLoren{
+    font-size: 150%;
+    justify-content: flex-start;
+    align-items: flex-start;
 
+    }
 /* fin section3 */
 .section4{
     width: 100%;
