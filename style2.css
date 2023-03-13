@@ -12,11 +12,11 @@
         align-items: center;
     }
     .imglogo{
-        height: 50px;
+        height: 20%;
     }
     ul li a{
         font-size: 15px;
-        padding-left:  20px;
+        padding-left:  10px;
     }
     /* fin de header */
 
@@ -34,15 +34,18 @@
     padding-top: 4%;
 }
 .bordeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 60px;
     width:50%;
-    margin-left: 20%;
-    margin-top: 15%;
+
 }
 /* fin section */
 
 aside{
     height: 450px;
+    width: 50%;
     background-image: url(/imagenes/Canva-Withered-Leaves-Photo.jpg);
     background-size: 184%;
 }
@@ -55,8 +58,10 @@ aside{
     font-size: 300%;
 }
 .laptop{
-    height: 200px;
     padding-left: 10px;
+}
+.imglaptop{
+    height: 150px;
 }
 .Alphascreenshot{
     font-size:30px;
@@ -69,19 +74,18 @@ aside{
 }
 /* fin section3 */
 .section4{
-    width: 768px;
-    height: 1020px;
+    width: 100%;
+    height: 1030px;
     flex-wrap: wrap;
 }
 .contenedor2{
     height: 500px;
     width: 270px;
-
 }
 }
 
 /* ---------------------------------------------------------- */
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     body{
         width: 100%;
     }
@@ -113,7 +117,7 @@ aside{
 }
 .productPage{
     padding-top: 20%;
-    font-size: 30px;
+    font-size:200%;
 }
 .productPage2{
     padding-left: 10%;
@@ -140,19 +144,34 @@ aside{
 /* fin aside  */
 .Fonctionnalités{
     font-size: 300%;
+    height: 20px;
 }
 .section2{
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 700px;
 }
 .laptop{
-    height: 100px;
-    padding-left: 10px;
+   height: 90px;
+   margin-bottom: 10%;
+}
+.imglaptop{
+    height: 150%;
 }
 .Alphascreenshot{
-    font-size:30px;
+    font-size:250%;
     display: flex;
     justify-content: center;
+}
+.textoAlphascreenshot{
+    font-size: 150%;
+}
+.MarketingPage{
+  font-size: 150%;
+}
+.icono{
+    font-size: 140%;
 }
 /* fin section2 */
 .h4plansPrincing{
