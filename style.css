@@ -117,6 +117,8 @@ aside{
     height: 600px;
     background-image: url(/imagenes/Canva-Withered-Leaves-Photo.jpg);
     background-size: 160%;
+    width: 50%;
+    
 }
 .phonePng{
     height: 450px;

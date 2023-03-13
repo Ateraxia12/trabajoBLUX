@@ -81,33 +81,35 @@ aside{
 }
 
 /* ---------------------------------------------------------- */
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     body{
-        *width: 100%;
+        width: 100%;
     }
     *{
         margin: 0%;
     }
     header{
-        background-color: #1E172F;
         width: 100%;
-        height:120px;
+        background-color: #1E172F;
+        height:140px;
         flex-wrap: wrap;
         justify-content: start;
     }
     .imglogo{
-        height: 50px;
+        height: 100%;
         justify-content: space-between;
     }
     ul li a{
         font-size: 15px;
-        padding-left:  20px;
+        padding-left:  10px;
+        display: flex;
     }
     /* fin de header */
 
 .section1{
     width: 50%;
     height: 450px;
+    margin: 0%;
 }
 .productPage{
     padding-top: 20%;
@@ -119,9 +121,9 @@ aside{
     padding-top: 4%;
 }
 .bordeButton{
-    height: 50px;
-    width:60%;
-    margin-left: 20%;
+    height: 60px;
+    width:70%;
+    margin-left: 10%;
     margin-top: 15%;
 }
 /* fin section */
@@ -140,7 +142,6 @@ aside{
     font-size: 300%;
 }
 .section2{
-    width: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -182,4 +183,5 @@ aside{
     height: 500px;
     width: 270px;
     margin-bottom: 20px;
+}
 }
